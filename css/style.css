@@ -26,12 +26,6 @@ a {
 
 /* Колонки */
 
-.row {
-display:flex;
-}
-.col {
-flex:auto;
-}
 
 
 /* Потом селекторы по классам */
@@ -56,39 +50,29 @@ flex:auto;
 
 /* Страничка жанров и тегов */
 .genre {
-
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 5px 10px;
 }
 
 
 .genre-fiction {
     background-color: #E1F5EA;
-    border-radius: 4px;
-    margin: 10px 0px;
-    padding: 5px 10px;
     width: 100%
 }
 
 .genre-detective {
     background-color: #CBEDFF;
-    border-radius: 4px;
-    margin: 10px 0px;
-    padding: 5px 10px;
     width: 75%
 }
 
 .genre-mystic {
     background-color: rgba(251, 236, 221, 1);
-    border-radius: 4px;
-    margin: 10px 0px;
-    padding: 5px 10px;
     width: 45%
 }
 
 .genre-boevik {
     background-color: #EBDCF9;
-    border-radius: 4px;
-    margin: 10px 0px;
-    padding: 5px 10px;
     width: 30%
 }
 
