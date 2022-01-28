@@ -40,24 +40,25 @@ h3 {
     font-size: 17px;
 }
 
-p {
+p {}
 
-}
-
-a {
-
-}
+a {}
 
 /* Колонки */
 
 .row {
-display: flex;
-margin: 0px -5px;
+    display: flex;
+    margin: 0px -5px;
 }
 .col {
-flex: auto;
-margin: 0px 5px;
+    flex: auto;
+    margin: 0px 5px;
 }
+
+.col2-tag {
+    flex: auto;
+}
+
 
 
 /* Потом селекторы по классам */
@@ -81,7 +82,10 @@ margin: 0px 5px;
 /* Login*/
 
 .input-login {
-
+    margin: 10px 0px 20px 0px;
+    padding: 10px 8px;
+    border-color: #EEEEEE;
+    width: 100%;
 }
 
 
@@ -108,13 +112,13 @@ margin: 0px 5px;
 }
 
 .tag {
-
+    display: inline-block;
 }
 
 /* Страничка популярного */
 
 .cover {
-
+    margin-bottom: 6px;
 }
 
 /* Страничка подписки  */
@@ -138,8 +142,4 @@ margin: 0px 5px;
 .text-large {
     font-size: 20px;
     font-weight: bold
-}
-
-/* .button-link {
-
 }
