@@ -50,6 +50,14 @@ a {
 
 /* Колонки */
 
+.row {
+display: flex;
+margin: 0px -5px;
+}
+.col {
+flex: auto;
+margin: 0px 5px;
+}
 
 
 /* Потом селекторы по классам */
@@ -59,13 +67,13 @@ a {
     width: 90%
 }
 
-.button , .button-link {
+.button, .button-link  {
+    display: inline-block;
     text-decoration: none;
     border-radius: 4px;
     background-color: rgba(100, 100, 251, 1);
     color: #FFFFFF;
     padding: 10px 15px;
-    margin: 0px 0px 0px 0px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -73,7 +81,6 @@ a {
 /* Login*/
 
 .input-login {
-
 
 }
 
