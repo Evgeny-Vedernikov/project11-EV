@@ -1,7 +1,22 @@
+main {
+    width: 300px;
+    margin: 0px auto;
+    font-family: verdana
+}
+
 /* Сперва общие правила */
 
+
 * {
-    box-sizing: border-box
+    font-size: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.boxed {
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 5px 10px;
 }
 
 /* Потом селекторы по тегам */
@@ -10,37 +25,56 @@ html {
 
 }
 
-main {
-    width: 300px;
-    margin: 0px auto;
+h1 {
+    margin-top: 25px;
+    font-size: 25px;
 }
 
-p {
-
+h2 {
+    margin-top: 25px;
+    font-size: 20px;
 }
 
-a {
-
+h3 {
+    margin-top: 25px;
+    font-size: 17px;
 }
+
+p {}
+
+a {}
 
 /* Колонки */
 
 .row {
-
+    display: flex;
+    margin: 0px -5px;
 }
 .col {
-
+    flex: auto;
+    margin: 0px 5px;
 }
+
+.col2-tag {
+    flex: auto;
+}
+
 
 
 /* Потом селекторы по классам */
 
 .text-input {
-
+    padding: 7px;
+    width: 90%
 }
 
-.button {
-
+.button, .button-link  {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgba(100, 100, 251, 1);
+    color: #FFFFFF;
+    padding: 10px 15px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,53 +82,64 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    margin: 10px 0px 20px 0px;
+    padding: 10px 8px;
+    border-color: #EEEEEE;
+    width: 100%;
 }
 
 
 /* Страничка жанров и тегов */
 
-.genre-first {
-
+.genre-fiction {
+    background-color: #E1F5EA;
+    width: 100%
 }
 
-.genre-second {
-
+.genre-detective {
+    background-color: #CBEDFF;
+    width: 75%
 }
 
-.genre-third {
-
+.genre-mystic {
+    background-color: rgba(251, 236, 221, 1);
+    width: 45%
 }
 
-.genre-fourth {
-
+.genre-boevik {
+    background-color: #EBDCF9;
+    width: 30%
 }
 
 .tag {
-
+    display: inline-block;
 }
 
 /* Страничка популярного */
 
 .cover {
-
+    margin-bottom: 6px;
 }
 
 /* Страничка подписки  */
 
-.box-green {
+.box-padding {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
+.box-green {
+    background-color: #E1F5EA;
+    width: 100%
 }
 
 .box-purple {
-
+    background-color: #EBDCF9;
+    width: 100%
 }
 
 .text-large {
-
-}
-
-.button-link {
-
+    font-size: 20px;
+    font-weight: bold
 }
